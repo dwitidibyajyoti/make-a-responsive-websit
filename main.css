@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #010101;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.nav-list li {
+  margin: 0px 15px;
+  list-style: none;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  color: antiquewhite;
+}
+
+.logo {
+  margin: 5px 0px 0px 10px;
+}
+
+.logo img {
+  width: 80px;
+  height: 60px;
+}
+
+.right-nav {
+  margin-right: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  background: transparent;
+  border: 2px solid white;
+  color: antiquewhite;
+  border-radius: 5px;
+}
+
+.box-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 50%;
+  margin: auto;
+}
+
+.background {
+  background: url(./img/pexels-sebastiaan-stam-1097456.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.firstHalf {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: aliceblue;
+}
+
+.secondHalf {
+  width: 30%;
+}
+
+.big-text {
+  font-size: 2em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.small-text {
+  font-size: 1.1em;
+  margin: 10px 0px;
+  margin-right: 5px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#search {
+  height: 25px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  margin-right: 5px;
+}
+
+.content1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.left {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.leftContent {
+  margin: 0 10px;
+  margin-left: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+}
+
+.leftContent h2 {
+  margin-bottom: 30px;
+}
+
+.contact {
+  background-color: #f0eded;
+  margin-top: 5vh;
+}
+
+.contact {
+  height: 500px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.form input {
+  width: 82%;
+  margin: 20px auto;
+  height: 32px;
+  font-family: 'Oswald', sans-serif;
+  padding: 5px;
+  border: none;
+}
+
+.form input:focus {
+  outline-color: rgba(145, 235, 54, 0.959);
+}
+
+.form textarea {
+  width: 55%;
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+  padding: 5px;
+  border: none;
+}
+
+.form textarea:focus {
+  outline-color: rgba(145, 235, 54, 0.959);
+}
+
+.sub {
+  color: black;
+  width: 40%;
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 10px;
+}
+
+.copy {
+  background-color: #181616;
+  height: 55px;
+  color: #f0eded;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.burger {
+  display: none;
+  padding: 6px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  position: fixed;
+  top: 7px;
+  right: 7px;
+}
+
+.burger .burgerline {
+  height: 4px;
+  background-color: #796c6c;
+  border-radius: 1px;
+  margin: 4px 0px;
+}
+
+@media only screen and (max-width: 730px) {
+  .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logo {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+  }
+  .nav-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 150px;
+    overflow: hidden;
+  }
+  .nav-list li {
+    margin: 10px 0px;
+  }
+  .responsiv {
+    height: 0px;
+  }
+  .responsiv li {
+    display: none;
+  }
+  .right-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+  }
+  .right-nav input {
+    width: 130%;
+  }
+  .burger {
+    display: block;
+  }
+}
+/*# sourceMappingURL=main.css.map */
